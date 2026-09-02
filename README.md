@@ -1,3 +1,5 @@
+<img width="867" height="275" alt="figma-transit-map-builder-preview-github" src="https://github.com/user-attachments/assets/519f24b0-296e-4b53-8e0c-0758e671196b" />
+
 Below are the steps to get your plugin running. You can also find instructions at:
 
   https://www.figma.com/plugin-docs/plugin-quickstart-guide/
