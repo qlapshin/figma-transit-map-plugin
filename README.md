@@ -1,42 +1,20 @@
-<img width="867" height="275" alt="figma-transit-map-builder-preview-github" src="https://github.com/user-attachments/assets/519f24b0-296e-4b53-8e0c-0758e671196b" />
+<img width="1400" height="468" alt="figma-transit-map-builder-preview-github" src="https://github.com/user-attachments/assets/817221ff-70e6-4fc4-8196-1f0e41423a39" /><br>
+This plugin for Figma helps you create clear and visually consistent public transit maps. Use a growing collection of ready-made vector assets to quickly assemble metro, railway, bus, and other transit diagrams.
 
-Below are the steps to get your plugin running. You can also find instructions at:
+The library includes lines, stations, transitions, transit icons, and color palettes. Select an asset to insert it into your design as an editable vector, then adjust its color, size, and position to fit your map.
 
-  https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+## How to Use the Plugin
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+### Option 1 — From Figma Desktop
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+1. Open Figma on your computer and open your project
+2. Press <kbd>Ctrl</kbd> + <kbd>K</kbd>
+3. Select **Plugins & Widgets**
+4. Search for **Transit Map Builder**
+5. Click **Run**
 
-  https://nodejs.org/en/download/
+### Option 2 — From Figma Web
 
-Next, install TypeScript using the command:
-
-  npm install -g typescript
-
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
-
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+1. Go to the plugin page
+2. Click **Open in…** and select your project
+3. Click **Run**
